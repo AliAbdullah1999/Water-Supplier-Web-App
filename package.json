@@ -1,0 +1,22 @@
+{
+  "name": "takerapp",
+  "version": "1.0.0",
+  "description": "This is the conversion of water tanker single page website to full stack node js application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "Ali Abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9",
+    "router": "^2.0.0"
+  }
+}

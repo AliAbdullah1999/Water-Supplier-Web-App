@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Service Areas</title>
+ 
+  </head>
+  <body style="background-color: #3b3c36;"> 
+    {{>nav data = navbar}}
+
+
+    <!-- Service Areas Section -->
+    <div class="container text-center">
+      <h2 class="text-white mb-4">المناطق التي نخدمها / Areas We Serve</h2>
+      <div>
+        <span class="service-area">حي الرمال / Al-Rimal</span>
+        <span class="service-area">حي المونسية / Al-Munsiyah</span>
+        <span class="service-area">القادسية / Al-Qadisiyah</span>
+        <span class="service-area">قرطبة / Qurtubah</span>
+        <span class="service-area">غرناطة / Granada</span>
+        <span class="service-area">إشبيليا / Ishbiliyah</span>
+        <span class="service-area">الحمراء / Al-Hamra</span>
+        <span class="service-area">اليرموك / Al-Yarmouk</span>
+        <span class="service-area">الجنادرية / Al-Janadriyah</span>
+        <span class="service-area">الأندلس / Al-Andalus</span>
+        <span class="service-area">قدسية / Qudsiyah</span>
+      </div>
+    </div>
+ <section class="location" >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.100123456789!2d46.8266525!3d24.8816357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f123456789abc%3A0xabcdef123456789!2sExact%20Location%20Name!5e0!3m2!1sen!2ssa!4v1234567890123"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </section>
+  {{!-- <div class="blinking-line"></div> --}}
+  <hr>
+
+      {{> footer}}
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
